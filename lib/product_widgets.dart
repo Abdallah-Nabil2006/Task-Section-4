@@ -1,24 +1,3 @@
-// ============================================================
-//  HELPER FILE: Product widgets
-// ============================================================
-//  Ready widgets to show a list of products.
-//  Use ProductsListView or ProductsGridView inside your page.
-//
-//  Each product is a Map like: {"name": "Laptop", "price": 1200}
-//
-//  Example:
-//  ProductsListView(
-//    products: products,
-//    onFavoritePressed: () {
-//      setState(() {
-//        favorites++;
-//      });
-//    },
-//    onProductTap: (index) {
-//      print(products[index]["name"]);
-//    },
-//  )
-
 import 'package:flutter/material.dart';
 
 class ProductsListView extends StatelessWidget {

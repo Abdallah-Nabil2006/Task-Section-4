@@ -40,7 +40,7 @@ class _DetailsPageState extends State<DetailsPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(widget.name, style: const TextStyle(fontSize: 24)),
+            Text(widget.name, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             Text('Price: \$${widget.price}'),
             const SizedBox(height: 24),
             ElevatedButton(
