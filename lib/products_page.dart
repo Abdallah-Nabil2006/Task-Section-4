@@ -85,9 +85,9 @@ class _ProductsPageState extends State<ProductsPage> {
           'Products for ${widget.user}',
           style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.green,
       ),
-      backgroundColor: const Color.fromARGB(140, 0, 0, 0),
+      backgroundColor: const Color.fromARGB(150, 0, 0, 0),
       body: Column(
         children: [
           Padding(

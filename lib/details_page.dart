@@ -33,9 +33,9 @@ class _DetailsPageState extends State<DetailsPage> {
           'Product Details',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.green,
       ),
-      backgroundColor: const Color.fromARGB(140, 0, 0, 0),
+      backgroundColor: const Color.fromARGB(150, 0, 0, 0),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
